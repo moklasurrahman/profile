@@ -1,0 +1,578 @@
+*{
+    box-sizing: border-box;
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+body{
+
+}
+body{
+    margin: 0px;
+ 
+ }
+ .nav-bar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+ 
+ }
+ .nav-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+ }
+ .nav-logo a{
+     
+ }
+ .nav-logo a img{
+    
+     
+ }
+ 
+ .profile-img{
+     float:right;
+     padding: 13px;
+     
+     
+    
+}
+.profile-img a img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 5px rgb(121, 85, 168) solid;
+
+    
+}
+ .nav-title h1{
+     
+    text-align: left;
+    
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    
+    margin: 5px 5px;
+ 
+ }
+ .nav-manu{
+    display: flex;
+    flex-direction: row;
+     
+    /*justify-content: flex-start;*/
+    text-align: left;
+ 
+ }
+ .nav-manu a{
+     background-color: transparent;
+     border-radius: 0px;
+     padding: 15px;
+ }
+
+ .search{
+    text-align: right;
+    padding: 25px;
+    
+   }
+ .search input[type=text]{
+     width: 200px;
+    
+ }
+
+
+ /* <!-- body-title start --> */
+ /* <!-- body-title start --> */
+ .body-cont{
+    
+    padding: 140px 5px;
+    text-align: center;
+    background-image: url("img/back2.png");
+    
+    background-repeat: no-repeat;
+  
+}
+
+}
+.body-logo{
+ 
+}
+.body-logo img{
+        width: 150px;
+        position: absolute;
+        right: 60px;
+        top: 90px;
+        z-index: 1;
+        
+       
+}
+.body-logo img:hover{
+    
+    
+}
+.body-discp h1{
+ font-family: 'Kaushan Script', cursive;
+ font-weight: bolder;
+ font-size: 50px;
+ width: 100%;
+
+ 
+ 
+      
+}
+.body-discp p{
+   
+    margin: 0px auto 30px auto;  
+     font-size:20px;
+    width: 50%;
+
+}
+
+.body-logo2{
+  
+
+}
+.body-logo2 img{
+        width: 150px;
+        position: absolute;
+        left: 60px;
+        bottom: 10px;
+        
+}
+.body-logo2 img:hover{
+ transform: rotate(390deg);
+ 
+ 
+}
+.body-cont::after{
+ content: '';
+ display: table;
+ clear: both;
+}
+
+        /* <!-- body-title END --> */
+
+
+/* about me profile disc */
+.about-me{
+   
+    
+    
+   
+}
+.about-me>h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px ;
+    background: #0a3d62;
+    text-shadow: 3px 3px 3px black;
+
+}
+.dotted-hr{
+    
+    width: 100%;   
+}
+.aboutme-hr{
+    border: solid 1px rgb(16, 142, 158);
+    width: 90%;
+    margin: 20px auto; 
+
+}
+.aboutme-img{
+    text-align: center;
+    margin-top: 190px;
+}
+.aboutme-img img{
+  width: 250px;
+  border-radius: 10%;
+ 
+  opacity: 60%;
+  transition: 2s;
+  
+}
+.aboutme-img img:hover{
+    opacity: 100%;
+    width:300px;
+}
+.about-disc{
+
+}
+.about-disc p{
+    padding: 2% 7%;
+    text-align: left;
+    font-size: 1.2rem;
+
+}
+.about-disc a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+} 
+.about-disc a:hover{
+    text-decoration:underline;
+}
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    
+    text-align: left;
+    cursor: pointer;
+    color: white;
+}
+.about-me::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+     /* about me profile disc En */
+
+
+
+
+     /* protfolios design */
+.portfollios-hed h2 {
+    background-color: cadetblue;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-shadow: 5px 3px 6px black;
+}
+
+.portfolios-cont{
+    text-align: center;
+   
+   box-sizing: border-box;
+   background-image: unset;
+   background-repeat: no-repeat;
+   padding: 10px;
+}
+.design1{
+   text-align: center;
+}
+.design1 img{
+    width: 188px; 
+    transition: 2s;  
+    opacity: 80%;
+   
+}
+.design1 img:hover{
+   width:100%;
+   opacity: 100%;
+   
+}
+
+
+.design2{
+  text-align: center;
+  
+}
+.design2 img{
+    width: 169px;
+    transition: 2s; 
+    opacity: 80%;
+    
+   
+}
+.design2 img:hover{
+    width: 100%;
+    opacity: 100%;
+    
+  
+}
+
+
+.design3{
+  text-align: center;
+}
+.design3 img{
+    width: 200px;
+    transition: 2s; 
+    opacity: 80%;
+   
+}
+.design3 img:hover{
+   width: 90%;
+   opacity: 100%;
+}
+
+
+.design4{
+   text-align: center;
+}
+.design4 img{
+    width: 200px;
+    opacity: 80%;
+    transition: 2s;
+    
+}
+.design4 img:hover{
+    width: 90%;
+    opacity: 100%;
+}
+
+
+.design5{
+   text-align: center;
+}
+.design5 img{
+    width: 180px;
+    opacity: 80%;
+    transition: 2s;
+}
+.design5 img:hover{
+    
+    opacity: 100%;
+}
+
+
+.design6{
+   text-align: center;
+}
+.design6 img{
+    opacity: 80%;
+    transition: 2s;
+    
+    width: 200px;
+    
+}
+.design6 img:hover{
+    width: 90%;
+    opacity: 100%;
+
+}
+
+
+.portfolios-cont::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+      /* protfolios design END */
+
+
+       /* Professional Experience On Card START */
+
+    .Professional_Experience{
+       
+       
+    }
+    .work-exp{
+       
+       
+
+    }
+    .Professional_Experience .card{
+        
+    }
+
+       /* Professional Experience On Card END */
+
+
+
+        /* overall-contract from here */
+       
+
+        .overall-contract{
+            background-color: #0c2461;
+           
+           
+        }
+
+        .achiv{
+          
+          
+        }
+        .achive-title{
+            text-align: center;
+           
+            
+
+        }
+
+        .achive-title h2{
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            padding: 10px;
+
+
+        }
+        .achiv-discrip{
+            
+            
+            color: white;
+            font-size: 18px;
+            padding: 30px;
+
+        }
+        .achiv-discrip li{
+           text-align: justify;
+           padding: 10px;
+
+        }
+
+
+
+       .form-aria{
+           
+
+       }
+       .achiv-cont{
+          text-align: center;
+          padding: 20px;
+          
+       }
+       .achiv-cont input, textarea{
+           width: 100%;
+           padding: 10px;
+           margin: 10px;
+           text-align: left;
+           background-color: #ffffff;
+           text-decoration: none;
+           border: none;
+           border-radius: 5px;
+           resize: none;
+           font-weight: bold; 
+           font-size: 20px;
+           color: black;
+           box-shadow: 0px 2px 3px 2px rgb(80, 74, 74);
+        
+       }
+
+       .achiv-cont button{
+           color: rgb(255, 255, 255);
+           background-color: rgb(140, 13, 13);
+           border-radius: 5px;
+           padding: 10px;
+           width: 130px;
+           margin: 10px;
+           text-align: center;
+       }
+      
+
+
+      
+       .contact-link{
+           position: relative;
+       }
+       .cont-btn{
+           position: absolute;
+           padding: 20px;
+           margin-top:50%;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%,-50%);
+       }
+
+
+
+        .overall-contract::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+       /* overall-contract from here END */
+
+        /* footer start */
+
+        .footer{
+            
+            
+         }
+         .footer-left{
+            
+         }
+         .manu{
+             text-align: left;
+            
+  
+         }
+         .manu a{
+            
+             font-weight: normal;
+             font-size: 20px;
+             
+             
+  
+         }
+        
+         .footer-disc{
+             
+         }
+  
+  
+  
+         .footer::after{
+             display: table;
+             clear: both;
+             content: '';
+         }
+  
+  
+  
+  
+  
+  
+         /* footer END */
+
+
+
+
+
+
+

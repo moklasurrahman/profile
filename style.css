@@ -1,0 +1,792 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+
+
+.nav-bar{
+    background-color: rgb(29, 17, 97);
+   
+
+   
+
+}
+.nav-logo{
+    text-align: center;
+    
+
+   
+}
+.nav-logo a{
+    
+}
+.nav-logo a img{
+    width: 150px;
+    padding: 5px 0px;
+    
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img a img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 5px rgb(121, 85, 168) solid;
+    
+    
+}
+.nav-title h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+    
+
+
+}
+.nav-manu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav-manu a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+    color: white;
+    margin: 5px;
+    background-color: rgb(33, 27, 114);
+    border-radius: 10px;
+    
+}
+.nav-manu a:hover{
+    background-color: rgb(20, 145, 20);
+}
+/* <!-- seach bar right align --> */
+.search{
+ padding: 20px;
+ text-align: center;
+}
+.search input[type=text] {
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    
+
+    border-radius: 20px;
+    border: none;
+    background: rgb(20, 12, 70);
+    
+    
+}
+.search button{
+    padding: 3px;
+    background: none;
+    border: none;
+    color: white;
+
+}
+.search button:hover{
+    
+    color: tomato;
+   
+}
+
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/*for mobile*/
+[class*="col-"]{
+    width: 100%;
+}
+
+.nav-bar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* <!-- body-title start --> */
+/* <!-- body-title start --> */
+.body-cont{
+    position: relative;
+    padding: 140px 5px;
+    text-align: center;
+    
+    background-image: url("img/back2.png");
+    
+    background-repeat: no-repeat;
+
+    
+
+
+
+}
+.body-logo{
+ 
+}
+.body-logo img{
+        width: 140px;
+        position: absolute;
+        right: 60px;
+        top: 20px;
+        transition:width 2s, transform 2s;
+       
+}
+.body-logo img:hover{
+    transform: rotate(360deg);
+    width: 170px;
+    
+}
+.body-discp h1{
+ font-family: 'Kaushan Script', cursive;
+ font-weight: bolder;
+ font-size: 50px;
+ width: 90%;
+ color:darkblue;
+ padding: 10px;
+
+ 
+ 
+      
+}
+.body-discp p{
+   
+     margin: 0px auto 30px auto;  
+     font-size:20px;
+     width: 90%;
+     color: rgb(2, 2, 2);
+
+}
+
+.body-logo2{
+  
+
+}
+.body-logo2 img{
+        width: 140px;
+        position: absolute;
+        left: 60px;
+        bottom: 10px;
+        transition: transform 2s;
+        
+ 
+}
+.body-logo2 img:hover{
+ transform: rotate(390deg);
+
+ 
+}
+.body-cont::after{
+ content: '';
+ display: table;
+ clear: both;
+}
+        /* <!-- body-title end --> */
+
+
+
+
+
+ /* about me profile disc */
+ .about-me{
+    background-color:#0c2461;
+    color: rgb(255, 255, 255);
+    
+    
+   
+}
+.about-me>h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px ;
+    background: #0a3d62;
+    text-shadow: 3px 3px 3px black;
+    
+    
+    
+
+}
+.dotted-hr{
+    border: dotted 2px white;
+    width: 90%;
+    margin: 20px auto;    
+}
+.aboutme-hr{
+    border: solid 1px rgb(16, 142, 158);
+    width: 90%;
+    margin: 20px auto; 
+
+}
+.aboutme-img{
+    text-align: center;
+    margin-top: auto;
+}
+.aboutme-img img{
+  width: 200px;
+  border-radius: 10%;
+  border: 5px solid rgb(146, 56, 56) ;
+  opacity: 60%;
+  transition: 2s;
+  
+}
+.aboutme-img img:hover{
+    opacity: 100%;
+    width:300px;
+}
+.about-disc{
+
+}
+.about-disc p{
+    padding: 2% 7%;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+.about-disc a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+} 
+.about-disc a:hover{
+    text-decoration:underline;
+}
+a button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(140, 13, 13);
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.about-me::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+     /* about me profile disc End */
+
+
+
+      /* protfolios design */
+      .portfollios-hed h2 {
+        background-color: cadetblue;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        text-shadow: 5px 3px 6px black;
+    }
+
+    .portfolios-cont{
+        
+   
+
+    }
+    .design1{
+       text-align: center;
+    }
+    .design1 img{
+        width: 400px;
+        border: rgb(252, 223, 6) 4px solid;
+        opacity: 80%;
+        transition: 2s;
+        box-shadow: 3px 4px 9px;
+       
+        
+    }
+    .design1 img:hover{
+       width: 90%;
+       opacity: 100%;
+       box-shadow: 7px 10px 20px;
+    }
+
+
+   .design2{
+      text-align: center;
+   }
+   .design2 img{
+       width: 400px;
+       border: rgb(252, 223, 6) 4px solid;
+       opacity: 80%;
+       transition: 2s;
+       box-shadow: 3px 4px 9px;
+       
+   }
+   .design2 img:hover{
+       width: 90%;
+       opacity: 100%;
+       box-shadow: 7px 10px 20px;
+   }
+
+   
+   .design3{
+      text-align: center;
+   }
+   .design3 img{
+       width: 400px;
+       border: rgb(252, 223, 6) 4px solid;
+       opacity: 80%;
+       transition: 2s;
+       box-shadow: 3px 4px 9px;
+       
+   }
+   .design3 img:hover{
+       width: 90%;
+       opacity: 100%;
+       box-shadow: 7px 10px 20px;
+   }
+
+
+   .design4{
+       text-align: center;
+    }
+    .design4 img{
+       width: 400px;
+       border: rgb(252, 223, 6) 4px solid;
+       opacity: 80%;
+       transition: 2s;
+       box-shadow: 3px 4px 9px;
+        
+    }
+    .design4 img:hover{
+        width: 90%;
+        opacity: 100%;
+        box-shadow: 7px 10px 20px;
+    }
+
+
+    .design5{
+       text-align: center;
+    }
+    .design5 img{
+       width: 400px;
+       border: rgb(252, 223, 6) 4px solid;
+       opacity: 80%;
+       transition: 2s;
+       box-shadow: 3px 4px 9px;
+    }
+    .design5 img:hover{
+        width: 90%;
+        opacity: 100%;
+        box-shadow: 7px 10px 20px;
+    }
+
+
+    .design6{
+       text-align: center;
+    }
+    .design6 img{
+       width: 400px;
+       border: rgb(252, 223, 6) 4px solid;
+       opacity: 80%;
+       transition: 2s;
+       box-shadow: 3px 4px 9px;
+        
+    }
+    .design6 img:hover{
+        width: 90%;
+        opacity: 100%;
+        box-shadow: 7px 10px 20px;
+    }
+
+
+    .portfolios-cont::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    
+
+          /* protfolios design END */
+
+
+
+           
+         /* Professional Experience On Card START */
+
+
+
+         .Professional_Experience{
+             padding: 20px;
+            
+         }
+         .work-exp{
+            
+            
+
+         }
+         .Professional_Experience .card{
+             padding: 35px;
+              margin: 10px; 
+             background-color: rgb(114, 114, 114);
+             border-radius: 10px;
+             box-shadow: 0px 2px 3px 2px rgb(169, 169, 169);
+             height: 570px;
+         }
+         .Professional_Experience .card:hover{
+            box-shadow: 0px 3px 4px 3px black;
+         }
+         
+         .icon{
+            text-align: center;
+         }
+         .icon img{
+             width: 100px;
+             border: 3px rgb(255, 255, 255) solid;
+             border-radius: 100%;
+             padding: 5px;
+             
+         }
+         .exp-head{
+
+         }
+         .exp-head h2{
+             text-align: center;
+             background-color: rgb(140, 138, 138);
+             margin: 15px;
+             color: white;
+             padding: 5px;
+             
+         }
+         .exp-disc{
+
+         }
+         .exp-disc li{
+             margin: 10px;
+             color: white;
+
+         }
+
+
+
+
+
+
+         .skil-cont{
+        
+
+
+        }
+        .skil-cont li{
+            margin: 25px 20px;
+            list-style-type: none;
+            font-weight: bolder;
+            position: relative;
+            text-transform: uppercase;
+
+            
+        }
+        .skil-cont li::before{
+            content: '';
+            position: absolute;
+            top: calc(100% + 5px);
+            left: 0px;
+
+           background: #ddd;
+           width: 100%;
+           height: 10px;
+           border-radius: 1000px;
+
+        }
+        .skil-cont li::after{
+           content: '';
+           position: absolute;
+           top: calc(100% + 5px);
+           left: 0px;
+
+          
+          background: rgb(148, 42, 42);
+          width: 0%;
+          height: 10px;
+          border-radius: 1000px;
+
+
+           animation-duration: 3s;
+           animation-timing-function: linear;
+           animation-delay: 2s;
+           animation-iteration-count: 5;
+           animation-direction: forward;
+
+           animation-fill-mode: forwards;
+
+       }
+       .skil-cont li.html::after{
+           animation-name: html;
+       }
+       @keyframes html{
+           to{
+               content:'';
+           
+               width: 95%;
+               background-color: #2196F3;
+               te
+           }
+       }
+
+       .skil-cont li.css::after{
+           animation-name: css;
+       }
+       @keyframes css{
+           to{
+               width: 95%;
+               background-color: #ff1504;
+           }
+       }
+       .skil-cont li.pyt::after{
+           animation-name: pyt;
+       }
+       @keyframes pyt{
+           to{
+               width: 80%;
+               background-color: #12ca18;
+           }
+       }
+       .skil-cont li.dj::after{
+           animation-name: dj;
+       }
+       @keyframes dj{
+           to{
+               width: 80%;
+               background-color: #02a3fa;
+           }
+       }
+       .skil-cont li.boot::after{
+           animation-name: boot;
+       }
+       @keyframes boot{
+           to{
+               width: 90%;
+               background-color: #fa04e6;
+           }
+       }
+       .skil-cont li.java::after{
+           animation-name: java;
+       }
+       @keyframes java{
+           to{
+               width: 70%;
+               background-color: #3204ff;
+           }
+       }
+       .skil-cont li.gith::after{
+           animation-name: gith;
+       }
+       @keyframes gith{
+           to{
+               width: 60%;
+               background-color: #03c6f2;
+           }
+       }
+       .skil-cont li.c::after{
+           animation-name: c;
+       }
+       @keyframes c{
+           to{
+               width: 75%;
+               background-color: #c51e0b;
+           }
+       }
+
+
+       .Professional_Experience::after{
+           content: '';
+           clear: both;
+           display: table;
+       }
+        /* Professional Experience On Card END */ 
+
+          
+
+          /* overall-contract from here */
+       
+
+          .overall-contract{
+            background-color: #0c2461;
+           
+           
+        }
+
+        .achiv{
+          
+          
+        }
+        .achive-title{
+            text-align: center;
+            background-color: #0d276b;
+            
+
+        }
+
+        .achive-title h2{
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            padding: 10px;
+
+
+        }
+        .achiv-discrip{
+            
+            
+            color: white;
+            font-size: 18px;
+            padding: 30px;
+
+        }
+        .achiv-discrip li{
+           text-align: justify;
+           padding: 10px;
+
+        }
+
+
+
+       .form-aria{
+           
+
+       }
+       .achiv-cont{
+          text-align: center;
+          padding: 20px;
+          
+       }
+       .achiv-cont input, textarea{
+           width: 90%;
+           padding: 10px;
+           margin: 10px;
+           text-align: left;
+           background-color: #ffffff;
+           text-decoration: none;
+           border: none;
+           border-radius: 5px;
+           resize: none;
+           font-weight: bold; 
+           font-size: 20px;
+           color: black;
+           box-shadow: 0px 2px 3px 2px rgb(80, 74, 74);
+        
+       }
+
+       .achiv-cont button{
+           color: rgb(255, 255, 255);
+           background-color: rgb(140, 13, 13);
+           border-radius: 5px;
+           padding: 10px;
+           width: 130px;
+           margin: 10px;
+           text-align: center;
+           font-weight: bold;
+           font-size: 15px;
+           cursor: pointer;
+       }
+   
+       .cont-btn{
+           text-align: center;
+       }
+
+       .cont-btn .btn{
+           color: rgb(255, 255, 255);
+           border: none;
+           cursor: pointer;
+           font-size: 30px;
+           border-radius: 100%;
+           padding: 5px;
+           margin: 10px;
+
+           width: 50px;
+           height: 50px;
+           text-align: center;
+           
+
+
+       }
+       .cont-btn .btn:hover{
+           background-color: black;
+       }
+      .cont-btn img{
+           width: 25px;
+       }
+       
+
+
+
+        .overall-contract::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+       /* overall-contract from here END */
+
+          /* footer start */
+
+       .footer{
+          background-color: rgb(19, 15, 15);
+          font-size: 25px;
+          
+          padding: 20px;
+          text-align: center;
+          
+       }
+       .footer-left{
+           /* display: fiexd; */
+
+       }
+       .manu{
+
+       }
+       .manu a{
+           display: block;
+           text-decoration: none;
+           margin: 30px;
+           color: rgb(255, 255, 255);
+           font-weight: bold;
+
+       }
+       .manu a:hover{
+           color: green;
+           cursor: pointer;
+       }
+       .footer-disc{
+           color: white;
+       }
+
+
+
+       .footer::after{
+           display: table;
+           clear: both;
+           content: '';
+       }
+
+
+
+
+
+
+       /* footer END */
+
+
+
+
+
+
+
+
